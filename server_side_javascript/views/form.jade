@@ -1,0 +1,13 @@
+doctype html 
+html   
+    head  
+        meta(charset = 'utf-8')
+    body
+        <!--method = 'default = get'입력하지 않으면 자동으로 get -->
+        form(action = '/form_receiver' method = 'post')
+            p 
+                input(type='text' name = 'title')
+            p
+                textarea(name='description')
+            p
+                input(type = 'submit')

@@ -1,0 +1,11 @@
+html 
+    head    
+        title= _title
+    body 
+        h1 Hello Jade
+        ul 
+            <!--for문이 화면에 출력되는 것이 아니라는 걸 명시적으로 표현하기 위해서 앞에 -를 붙인다.-> 
+            -for(var i = 0; i < 5; i++)
+                li coding 
+
+        div= time
